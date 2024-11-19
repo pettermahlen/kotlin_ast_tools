@@ -16,8 +16,8 @@
 
 package com.facebook.aelements
 
-import org.jetbrains.kotlin.com.intellij.psi.PsiElement
-import org.jetbrains.kotlin.com.intellij.psi.PsiLambdaExpression
+import com.intellij.psi.PsiElement
+import com.intellij.psi.PsiLambdaExpression
 import org.jetbrains.kotlin.psi.KtLambdaExpression
 
 class ALambdaExpression internal constructor(psiElement: PsiElement) :

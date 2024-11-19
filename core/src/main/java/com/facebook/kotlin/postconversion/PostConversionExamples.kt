@@ -21,7 +21,7 @@ import com.facebook.asttools.replaceAll
 import com.facebook.matching.replaceAllExpressions
 import java.io.File
 import java.io.PrintStream
-import org.jetbrains.kotlin.com.intellij.psi.PsiElement
+import com.intellij.psi.PsiElement
 import org.jetbrains.kotlin.psi.KtBinaryExpression
 import org.jetbrains.kotlin.psi.KtBlockExpression
 import org.jetbrains.kotlin.psi.KtElement

@@ -17,7 +17,7 @@
 package com.facebook.asttools
 
 import com.google.errorprone.annotations.CheckReturnValue
-import org.jetbrains.kotlin.com.intellij.psi.PsiElement
+import com.intellij.psi.PsiElement
 import org.jetbrains.kotlin.psi.KtAnnotationEntry
 import org.jetbrains.kotlin.psi.KtExpression
 import org.jetbrains.kotlin.psi.KtFile

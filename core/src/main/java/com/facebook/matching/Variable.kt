@@ -16,7 +16,7 @@
 
 package com.facebook.matching
 
-import org.jetbrains.kotlin.com.intellij.psi.PsiElement
+import com.intellij.psi.PsiElement
 
 /**
  * Represents a variagle in a template
@@ -27,6 +27,7 @@ import org.jetbrains.kotlin.com.intellij.psi.PsiElement
  * - (?) an optional quetion mark means this variable will be optional, if the node is missing it
  *   will match, and if it is available it needs to satisfy the other requirements
  */
+@OptIn(ExperimentalStdlibApi::class)
 class Variable(
     val name: String,
     val matcher: PsiAstMatcherImpl<*>,

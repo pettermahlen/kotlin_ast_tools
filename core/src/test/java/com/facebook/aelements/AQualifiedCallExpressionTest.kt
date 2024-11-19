@@ -17,7 +17,7 @@
 package com.facebook.aelements
 
 import org.assertj.core.api.Assertions.assertThat
-import org.jetbrains.kotlin.com.intellij.psi.PsiMethodCallExpression
+import com.intellij.psi.PsiMethodCallExpression
 import org.jetbrains.kotlin.psi.KtCallExpression
 import org.jetbrains.kotlin.psi.KtQualifiedExpression
 import org.junit.Test

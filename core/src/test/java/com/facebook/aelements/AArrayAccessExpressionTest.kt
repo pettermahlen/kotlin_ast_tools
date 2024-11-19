@@ -17,7 +17,7 @@
 package com.facebook.aelements
 
 import org.assertj.core.api.Assertions.assertThat
-import org.jetbrains.kotlin.com.intellij.psi.PsiArrayAccessExpression
+import com.intellij.psi.PsiArrayAccessExpression
 import org.jetbrains.kotlin.psi.KtArrayAccessExpression
 import org.junit.Test
 

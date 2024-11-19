@@ -19,8 +19,8 @@ package com.facebook.aelements
 import com.facebook.asttools.JavaPsiParserUtil
 import com.facebook.asttools.KotlinParserUtil
 import org.assertj.core.api.Assertions.assertThat
-import org.jetbrains.kotlin.com.intellij.psi.PsiJvmModifiersOwner
-import org.jetbrains.kotlin.com.intellij.psi.PsiMethodCallExpression
+import com.intellij.psi.PsiJvmModifiersOwner
+import com.intellij.psi.PsiMethodCallExpression
 import org.jetbrains.kotlin.psi.KtAnnotated
 import org.junit.Test
 
